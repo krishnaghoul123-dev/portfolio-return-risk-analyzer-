@@ -1,0 +1,19 @@
+Portfolio Setup & Assumptions,,,,,
+,,,,,
+Portfolio Allocation,,,,,
+Asset,Ticker,Sector,Weight,Initial Allocation (₹),Input / Formula
+Reliance Industries,RELIANCE.NS,Energy / Conglomerate,25.0%,"₹25,000",Weight = input
+HDFC Bank,HDFCBANK.NS,Financials,25.0%,"₹25,000",Weight = input
+TCS,TCS.NS,Information Technology,20.0%,"₹20,000",Weight = input
+ICICI Bank,ICICIBANK.NS,Financials,15.0%,"₹15,000",Weight = input
+Infosys,INFY.NS,Information Technology,15.0%,"₹15,000",Weight = input
+Total,,,100.0%,"₹100,000",Check = 100%
+,,,,,
+Model Assumptions,,,,,
+Assumption,Value,,Model Checks,,
+Initial Portfolio Value (₹),"₹100,000",,Check,Formula,Status
+Risk-Free Rate (Annual),6.5%,,Weights Total,100.0%,OK
+Trading Days / Year,252,,Number of Assets,5,OK
+Analysis Start,02-Jan-2023,,Data Observations,740,OK
+Analysis End,31-Dec-2025,,,,
+Price Data Type,Actual historical adjusted stock prices + NIFTY 50 index close,,,,

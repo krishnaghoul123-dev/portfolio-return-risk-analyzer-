@@ -1,0 +1,14 @@
+Portfolio Return & Risk Analyzer ,,,,
+By : Krishna Sharma,,,,
+,,,,
+Project Objective,,,,
+"Analyze a sample equity portfolio using actual historical daily prices to measure return, annualized volatility, Sharpe ratio and maximum drawdown. The workbook also compares the portfolio with the NIFTY 50 benchmark.",,,,
+,,,,
+,,,,
+How the Workbook Flows,,,Core Formula Logic,
+Sheet,Purpose,,Metric,Concept / Formula
+Portfolio,Portfolio weights and editable assumptions,,Daily Return,(Today Price / Previous Price) − 1
+Price Data,Actual historical adjusted stock prices and NIFTY 50 index closes,,Portfolio Return,Σ (asset return × portfolio weight)
+Returns,Daily stock and weighted portfolio returns,,Annualized Volatility,Daily return standard deviation × √252
+Risk Analysis,"Annualized metrics, cumulative performance and drawdowns",,Sharpe Ratio,(Annualized return − risk-free rate) / annualized volatility
+Dashboard,Summary and charts,,Drawdown,(Current portfolio index / running peak) − 1
