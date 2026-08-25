@@ -1,3 +1,5 @@
+![Portfolio Return & Risk Analyzer | Excel](project-banner.png)
+
 # Portfolio Return & Risk Analyzer | Excel
 
 Built an Excel-based Portfolio Return & Risk Analyzer for a 5-stock Indian equity portfolio consisting of Reliance Industries, HDFC Bank, TCS, ICICI Bank, and Infosys.
